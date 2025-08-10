@@ -6,10 +6,12 @@
     <title>Discount Calculator (MVP)</title>
 </head>
 <body>
-    <h1>Discount Calculator</h1>
-    <asp:TextBox ID="txtPrice" runat="server" />
-    <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" />
-    <asp:Label ID="lblResult" runat="server" />
-    <asp:Label ID="lblError" runat="server" ForeColor="Red" />
+    <form id="form1" runat="server">
+        <h1>Discount Calculator</h1>
+        <asp:TextBox ID="txtPrice" runat="server" />
+        <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" />
+        <asp:Label ID="lblResult" runat="server" />
+        <asp:Label ID="lblError" runat="server" ForeColor="Red" />
+    </form>
 </body>
 </html>
