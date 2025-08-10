@@ -1,7 +1,9 @@
 ﻿using DiscountCalculatorWebApp.Models;
 using DiscountCalculatorWebApp.Presenters;
 using DiscountCalculatorWebApp.Views;
+using Moq;
 using System;
+using Xunit;
 
 namespace DiscountCalculatorWebApp.UnitTests
 {

@@ -1,4 +1,5 @@
-﻿using DiscountCalculatorWebApp.Models;
+﻿// Views/DiscountPage.aspx.cs
+using DiscountCalculatorWebApp.Models;
 using DiscountCalculatorWebApp.Presenters;
 using System;
 
